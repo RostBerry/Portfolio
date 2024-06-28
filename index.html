@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio</title>
+    <title>Bio & Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
@@ -23,10 +23,10 @@
     <div class="container tab-content" id="tabContent">
         <div class="tab-pane fade" id="rostislav" role="tabpanel" aria-labelledby="rostislav-tab">
             <div class="row content-block">
-                <div class="col">
-                    <img src="assets/rostislavs_profile.jpg" alt="Rostislavs Berjoza">
+                <div class="col-12 col-lg-4">
+                    <img src="assets/rostislavs_profile.jpg" class="img-fluid" alt="Rostislavs Berjoza">
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-8">
                     <p class="text h1"> About Rostislavs</p>
                     <p class="text fs-4">Rostislavs Berjoza is a senior Fullstack-Frontend-Backend-DevOps-GameDev-Testing-Web-Desktop-Mobile-Fintech-DataAnalysis-ML-AI-Cybersecurity-Networking-IoT-AoT-CloudComputing-Blockchain-SystemAdministration-Robotics-VR-AR-Database-OSDev-UX-UI-Software Engineer-Developer-Tester-Designer-Senior-Master who started programming at the age of 9 and never stopped, even while asleep. Currently knows 10 programming languages: Rust, C#, C++, C, Python, Java, Dart, Go, GLSL, HTML&CSS and 8 frameworks: Flutter, Bootstrap, Unity, Unreal Engine, javaGDX, pygame, OpenGL, SFML. There are rumors that some things such as ASM, LLVM and Arch Linux were written by non another than Rostislavs Berjoza back in the days. Although in recent 6 years his projects are not that impressive because now he has to write programms while deadlifting 3000kg with one hand and solving Rubik's cube with another simultaneously, he still has something impressive going on.</p>
                 </div>
@@ -35,10 +35,10 @@
             <div class="content-block" style="padding: 0; padding-top: 1.5rem; padding-bottom: 1rem;">
                 <p class="text h1 mb-3" style=" text-align:center">Chess Engine</p>
                 <div class="row mx-5">
-                    <div class="col">
-                        <img src="assets/castling.gif" alt="Found castling footage in Python"  width="600" height="350">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/castling.gif" class="img-fluid" alt="Found castling footage in Python"  width="600" height="350">
                         <p class="text mt-5 fs-4">Example of Rostislavs' Python bot fighting against itself:</p>
-                        <video width="600" height="350" autoplay muted>
+                        <video width="600" height="350" class="img-fluid" controls>
                             <source src="assets/chess_game.mp4" type="video/mp4">
                             Epic Fight
                         </video>
@@ -46,8 +46,23 @@
                         <a class="text" href="https://github.com/RostBerry/RobeLauncher">See C# project on Github</a>
                         <p class="text pt-3">At the moment, Rostislavs doesn't have enough time to rewrite the bot for the 4th time so the project is abandoned for 7 months already until he finds some time to finish the job.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-lg-8">
                         <p class="text fs-4">Rostislavs has a long story with chess and chess programming in particular. It all began when he wanted to embrace the might of Python and test his skills by writing a chess bot that could conquer the lands of the Stockfish - the best chess bot on the planet at the moment. It took him 2 months to write just a game without the bot and to realize that his code was inefficient and contained lots of unfixable bugs, so he decided to rewrite it from scratch using a more standardized approach and more optimized techniques. He spent another couple of months and was very happy because of the drastic optimizations he did on the way. Eventually, he completed the game and even ran the first version of the bot, and it was so slow that scanning 2 moves deep into the position would take half a minute, and finally realized that Python is just a piece of garbage so he decided to rewrite it once again, using C#. From that point, Rostislavs accumulated all of the chess programming science with its most advanced techniques into his project and spent another 4 months making a blank engine without a bot, so scanning 2 moves deep into position would take the bot 1800 ns instead of 30 seconds. At first, it looked like a complete success, but if you remember, Rostislavs wanted to pair this bot with Stockfish in a death fight, and Stockfish could scan 2 moves deep into the position in 110 ns, it looked more like a RAM latency. It means that Rostislavs' bot was ~18x slower than Stockfish so he decided to rewrite it once again, into the final revision of the bot. You can tell he is desperate because now he has chosen to use Rust, which means a lot.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block" style="padding: 0; padding-top: 1.5rem; padding-bottom: 1rem;">
+                <p class="text h1 mb-3" style=" text-align:center">Durak Card Game</p>
+                <div class="row mx-5">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/card.jpg" class="img-fluid" alt="Example card"  width="600" height="350">
+                        <a class="text" href="https://github.com/RostBerry/Durak">See Rust project on Github</a><br>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="text fs-4">In order to aqcuire the new skill of writing programs in Rust, Rostislavs made a decision to make something simple to better understand basics of Rust before making another chess engine, so he started to write a Durak card game. The rules of the game are very simple yet hard to implement in a normal structured way in a program. Thus, the project took way much more time than Rostislavs expected and it got even worse because Rust isn't the easiest programming language out there, so Rostislavs couldn't understand if it was his fault in the game logic that player can't transfer his attack to another player or he miswrote some pointer in the Rust code and because of that anything wouldn't work. But despite all obstacles, the project is slowly but surely making its way to the finished state.</p>
+                        <p class="text pt-3">At the moment, Rostislavs is very busy so he is not spending as much time on the project as he might want to but the project is still going on.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -59,52 +74,142 @@
                 <p class="text h1 mb-3" style=" text-align:center">P2-2 Group</p>
                     <div class="row mx-5">
                         <p class="text h6">Here is what ChatGPT says about P2-2 group:</p>
-                        <p class="text">The P2-2 programming group is an educational practice initiative aimed at enhancing learning experiences through collaborative programming activities. This group typically operates within an academic or training environment, focusing on various aspects of programming and software development. Here’s a detailed description of what this group entails:</p>
-                        <p class="text h3">Objectives:</p>
-                        <p class="text">Skill Development: The primary goal is to improve the programming skills of participants, covering fundamental to advanced concepts.
-                            Collaborative Learning: Encourage teamwork and peer learning, which helps in understanding different perspectives and problem-solving approaches.
-                            Project-Based Learning: Engage students in real-world projects to apply theoretical knowledge in practical scenarios.
-                            Problem-Solving: Develop critical thinking and problem-solving skills by tackling diverse programming challenges.</p>
-                        <p class="text h3">Structure:</p>
-                        <p class="text">Group Composition: The group is usually composed of students or trainees with varying levels of expertise, often guided by an instructor or facilitator.
-                            Meetings and Sessions: Regular meetings are scheduled, which include lectures, coding sessions, and project discussions.
-                            Projects and Assignments: Participants work on individual and group projects, which are designed to reinforce the concepts learned during sessions.
-                            Code Reviews and Feedback: Peer reviews and instructor feedback are integral parts of the process, helping participants learn best practices and improve their code quality.</p>
-                        <p class="text h3">Activities:</p>
-                        <p class="text">Workshops and Tutorials: Hands-on workshops on different programming languages, tools, and technologies.
-                            Coding Challenges: Regular coding competitions and hackathons to foster a competitive yet collaborative spirit.
-                            Guest Lectures: Inviting industry experts to share insights and experiences.
-                            Mentorship: Senior members or instructors provide guidance and mentorship to junior participants.</p>
-                        <p class="text h3">Benefits:</p>
-                        <p class="text">Enhanced Learning: Practical application of programming concepts leads to better retention and understanding.
-                            Networking Opportunities: Participants get to connect with peers and professionals, expanding their professional network.
-                            Portfolio Building: Projects and challenges contribute to a portfolio that can be showcased to potential employers.
-                            Confidence Building: Regular practice and positive feedback help build confidence in programming abilities.</p>
-                        <p class="text">Overall, the P2-2 programming group provides a structured yet flexible environment for participants to learn, practice, and master programming skills, preparing them for academic or professional pursuits in the field of software development.</p>
+                        <p class="text">Welcome to the P2-2 Programming Group! We are a dynamic and enthusiastic team of budding developers currently engaged in an educational internship. Our primary focus is on mastering the fundamentals of web development, with a particular emphasis on HTML, CSS, and JavaScript.</p>
+                        <p class="text">Our group is in the midst of an intensive learning phase where we are not only absorbing theoretical knowledge but also applying it practically by building websites. This hands-on approach allows us to solidify our understanding of core web technologies and gain invaluable experience in the field of front-end development.</p>
+                        <p class="text h3">Technologies We Use</p>
+                        <p class="text">HTML (Hypertext Markup Language): The backbone of our web pages, HTML allows us to structure our content effectively. We are learning how to create well-organized and semantically correct HTML documents that provide a solid foundation for our websites.</p>
+                        <p class="text">CSS (Cascading Style Sheets): To make our web pages visually appealing, we use CSS. Our practice includes mastering layout techniques, styling elements, and implementing responsive design to ensure our websites look great on any device.</p>
+                        <p class="text">JavaScript: Adding interactivity to our websites is our focus with JavaScript. We are learning to manipulate the Document Object Model (DOM), handle events, and create dynamic content that enhances user experience.</p>
+                        <p class="text h3">Objectives and Goals</p>
+                        <p class="text">Our primary goal during this internship is to develop a comprehensive understanding of web development. By the end of this program, we aim to:
+
+                            Have a strong grasp of HTML, CSS, and JavaScript.
+                            Be capable of building fully functional, aesthetically pleasing websites from scratch.
+                            Understand and apply best practices in web development.
+                            Develop problem-solving skills through debugging and optimizing code.</p>
+                        <p class="text h3">Projects and Assignments</p>
+                        <p class="text">Throughout our internship, we are working on various projects that challenge us to apply what we have learned. These projects range from simple static web pages to more complex interactive websites. Each project helps us to:
+
+                            Reinforce our learning through practical application.
+                            Collaborate with team members, enhancing our teamwork and communication skills.
+                            Receive constructive feedback from our mentors, helping us to improve and grow.</p>
+                        <p class="text h3">Learning Environment</p>
+                        <p class="text">Our learning environment is collaborative and supportive. We have access to a wealth of resources, including:
+
+                            Mentorship: Experienced developers guide us through the learning process, offering insights and advice.
+                            Peer Support: We regularly work in groups, sharing knowledge and solving problems together.
+                            Online Resources: Tutorials, documentation, and forums are at our disposal to aid our learning journey.</p>
+                        <p class="text">The P2-2 Programming Group is committed to fostering a strong foundation in web development for all its members. Through dedicated practice, collaborative projects, and continuous learning, we are preparing ourselves to excel in the ever-evolving field of technology. We look forward to the challenges ahead and are excited to see the creative and innovative websites we will build together.</p>
                     </div>
             </div>
         </div>
         <div class="tab-pane fade" id="mihail" role="tabpanel" aria-labelledby="mihail-tab">
             
             <div class="row content-block">
-                <div class="col">
-                    <img src="assets/sigmis (1).jpg" alt="Mihails Kerns-Ostass">
+                <div class="col-12 col-lg-4">
+                    <img src="assets/sigmis (1).jpg" class="img-fluid" alt="Mihails Kerns-Ostass">
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-8">
                     <p class="text h1"> About Mihails</p>
-                    <p class="text fs-4">Born on a snowy evening in a small farming town, he showed early signs of brilliance, earning the nickname "Little Genius" from his parents. His childhood was marked by an insatiable curiosity, and he quickly stood out in school for his technical prowess, creating a rudimentary computer network and impressively detailed technical sketches. Despite these achievements, he remained grounded and well-liked. His fascination with technology deepened in technical school, particularly when he discovered programming, leading to significant projects like a school management system and a popular game. However, his intense focus on programming eventually led to addiction, causing him to lose his family and struggle with personal demons. Hitting rock bottom, he chose to fight for recovery, seeking professional help and rebuilding his life with renewed purpose. He reconnected with his family, resumed his programming work with a social focus, launched a successful startup, and became an advocate for mental health and addiction recovery, demonstrating remarkable resilience and the potential for redemption.</p>
+                    <p class="text fs-4">Born on a snowy evening in a small farming town, he showed early signs of brilliance, earning the nickname "Little Sigmis" from his parents. His childhood was marked by an insatiable curiosity, and he quickly stood out in school for his technical prowess, creating a rudimentary computer network and impressively detailed technical sketches. Despite these achievements, he remained grounded and well-liked. His fascination with technology deepened in technical school, particularly when he discovered programming, leading to significant projects like a school management system and a popular game. However, his intense focus on programming eventually led to addiction, causing him to lose his family and struggle with personal demons. Hitting rock bottom, he chose to fight for recovery, seeking professional help and rebuilding his life with renewed purpose. He reconnected with his family, resumed his programming work with a social focus, launched a successful startup, and became an advocate for mental health and addiction recovery, demonstrating remarkable resilience and the potential for redemption.</p>
                 </div>
             </div>
             
-            <div class="content-block" style="padding: 0; padding-top: 1.5rem; padding-bottom: 1rem;">
-                <p class="text h1">Early Life and School Years</p>
-                <div class="row">
-                    <div class="col">
-                        <p class="text">picutre</p>
+            <div class="row content-block">
+                <p class="text h1" style="text-align: center;">Early Life and School Years</p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/small-sigmis.jpg" class="img-fluid" alt="Baby Mihails">
                     </div>
-                    <div class="col">
-                        <p class="text fs-4">Early Life and School Years</p>
+                    <div class="col-12 col-lg-8">
+                        <p class="text h3">Introduction to Early Life</p>
+                        <p class="text">He was born on a cold, snowy evening in a small town that was more known for its vast fields than for producing prodigies. From a young age, he exhibited a curiosity that set him apart from other children. His parents, humble farmers, marveled at how their son, who they affectionately called "Little Sigmis," seemed to absorb information like a sponge. While other children played with toy cars and action figures, he was more fascinated by the inner workings of these toys, often dismantling them to see how they functioned.
+                            Growing up, his family life was simple but filled with love. His father, a hardworking man, spent long hours in the fields, while his mother tended to the house and garden. They encouraged his curiosity, providing him with books and tools to explore his interests. His early years were marked by an insatiable thirst for knowledge, and he often spent hours reading about the stars, machinery, and anything that caught his fancy.</p>
                     </div>
+                    <p class="text h3">School Achievements</p>
+                    <p class="text">Entering school, it didn't take long for his teachers to notice that he was no ordinary student. His knack for understanding complex concepts and his innovative thinking soon made him the talk of the school. His most legendary feat was when he "created the Internet" as a school project. Of course, this wasn't the real Internet, but a rudimentary network that connected a few computers in the school library. He called it "Interlink," a playful nod to what the future held. His teachers were astounded, and the project earned him accolades and a reputation as the school's resident genius.
+                        Another notable achievement was his drawing of an existing telephone. It wasn't just any drawing; it was a detailed, technical sketch that could have been mistaken for an engineer's blueprint. His attention to detail and understanding of the device's components left his classmates in awe and his teachers perplexed at how a child his age could possess such knowledge.
+                        His fame in school wasn't limited to his technical prowess. His birthday coincided with the controversial reclassification of Pluto in 2006. He humorously claimed that the universe acknowledged his birthday by changing the status of a planet. This quirky claim added to his legendary status among his peers, who loved to share the story of how Pluto's fate was intertwined with his special day.
+                        Despite his remarkable achievements, he remained a grounded and approachable boy. He participated in various school activities, from science fairs to sports, and built lasting friendships. His ability to balance his extraordinary talents with a down-to-earth personality made him beloved by teachers and students alike.</p>
+                    <p class="text h3">Reflections on School Years</p>
+                    <p class="text">Looking back on his school years, he often reflected on the unique path he had carved out for himself. His achievements were not just a result of his intelligence but also of the encouragement and support he received from his family and teachers. They nurtured his curiosity and provided him with the tools he needed to explore his interests.
+                        His experiences in school laid the foundation for his technical inclinations. The projects he undertook, the challenges he faced, and the recognition he received all played a role in shaping his future. He realized early on that his passion lay in understanding and creating technology, a realization that would guide him through his technical school years and beyond.</p>
+                </div>
+            </div>
+
+            <div class="row content-block">
+                <p class="text h1" style="text-align: center;">Technical School Years</p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/technical-sigmis.jpg" class="img-fluid" alt="Technical Mihails">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="text h3">Ordinary Schoolboy Life</p>
+                        <p class="text">Entering technical school, he initially led the life of an ordinary schoolboy. He enjoyed the simple pleasures of youth—playing sports, hanging out with friends, and participating in school events. His days were filled with routine activities, and he relished the freedom and excitement that came with this new phase of his life. He made new friends, bonded over shared interests, and embraced the camaraderie that school life offered.
+                            His interest in technology persisted, but it had not yet become the focal point of his life. He was content exploring different subjects, dabbling in various hobbies, and living in the moment. It was a time of exploration and self-discovery, and he enjoyed every bit of it.
+                            </p>
+                    </div>
+                    <p class="text h3">Discovery of Programming</p>
+                    <p class="text">His life took a dramatic turn when he stumbled upon programming. It began as a casual interest, sparked by a computer science class he took out of curiosity. The class introduced him to the basics of coding, and he was immediately hooked. The logical structure and creative possibilities of programming fascinated him. He spent hours learning different programming languages, experimenting with code, and building simple programs.
+                        The journey was not without its struggles. There were times when the code didn't work, bugs seemed insurmountable, and frustration threatened to overshadow his enthusiasm. But he persevered, driven by a deep-seated passion for problem-solving and creation. His first successful program was a simple calculator app, but the sense of accomplishment he felt was immense. It marked the beginning of a love affair with programming that would define his future.
+                        </p>
+                    <p class="text h3">Programming Projects</p>
+                    <p class="text">Over the next two years, he wrote numerous programs with diverse applications. Each project was a learning experience, pushing him to explore new concepts and techniques. One of his notable projects was a school management system that automated administrative tasks. The program was so effective that his school adopted it, earning him recognition and praise.
+                        Another significant project was a game he developed from scratch. It was a simple platformer, but the intricate design, engaging gameplay, and smooth performance made it a hit among his peers. The game showcased his ability to combine creativity with technical skills, and it became a testament to his growing prowess as a programmer.
+                        He also ventured into web development, creating websites for local businesses and organizations. These projects not only honed his skills but also provided him with practical experience and a taste of professional work. He faced numerous challenges, from debugging complex code to managing client expectations, but each hurdle only fueled his determination to excel.
+                        </p>
+                </div>
+            </div>
+
+            <div class="row content-block">
+                <p class="text h1" style="text-align: center;">Life During Studies</p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/hard-time-sigmis.jpg" class="img-fluid" alt="Work Mihails">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="text h3">Descent into Addiction</p>
+                        <p class="text">As he delved deeper into programming, he found himself increasingly isolated from the social aspects of life. The long hours spent coding took a toll on his physical and mental health. To cope with the stress and pressure, he turned to drinking, smoking, and eventually, drugs. What started as occasional indulgence soon spiraled into a full-blown addiction.
+                            His personal and academic life began to unravel. He missed classes, neglected assignments, and withdrew from friends and family. The once-brilliant student who had created groundbreaking projects was now struggling to keep up with the demands of his studies. His appearance deteriorated, and his behavior became erratic. Those who knew him were shocked and saddened by the drastic change.
+                            Specific incidents marked his downward spiral. There was the time he was found passed out in the computer lab, surrounded by empty bottles. Another incident involved a public altercation with a classmate, fueled by a drug-induced rage. Each event further alienated him from his peers and tarnished his reputation.
+                            </p>
+                    </div>
+                    <p class="text h3">Personal Struggles</p>
+                    <p class="text">His addiction took a devastating toll on his personal life. His wife, who had stood by him through thick and thin, could no longer cope with his destructive behavior. She left him, taking their children with her. The loss was a crushing blow, plunging him deeper into despair.
+                        Emotionally and mentally, he was a wreck. He battled depression, anxiety, and a profound sense of guilt and regret. The isolation and self-loathing became overwhelming, and he struggled to find a
+                         way out of the darkness. His once-promising future seemed bleak, and he felt trapped in a cycle of addiction and self-destruction.
+                        </p>
+                    <p class="text h3">Attempt at Recovery</p>
+                    <p class="text">Despite the bleakness of his situation, there were moments of clarity when he realized the need to change. He made several attempts to quit his addictive behaviors, seeking help from friends, family, and support groups. The road to recovery was long and arduous, marked by relapses and setbacks. But each attempt brought him closer to breaking free from the chains of addiction.
+                        He reflected on his mistakes and the consequences of his actions. The pain of losing his family and the damage to his health served as powerful motivators. He clung to the hope of redemption and the possibility of rebuilding his life. With the support of those who still cared for him, he began the slow process of healing and recovery.
+                        </p>
+                    
+                </div>
+            </div>
+
+            <div class="row content-block">
+                <p class="text h1" style="text-align: center;">Turning Point and Redemption</p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/old-sigmis.jpg" class="img-fluid" alt="Old Mihails">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="text h3">Hitting Rock Bottom</p>
+                        <p class="text">The turning point came when he hit rock bottom. It was a cold, rainy night, and he found himself alone in a desolate alley, shivering and soaked. The reality of his situation hit him with full force. He had lost everything—his family, his health, his dreams. The weight of his mistakes and the emptiness of his life were unbearable.
+                            But it was in this moment of utter despair that he found the strength to change. He realized that he had a choice: to continue down the path of self-destruction or to fight for a better life. The decision was not easy, but he chose to fight. He vowed to turn his life around, no matter how difficult the journey might be.
+                            </p>
+                    </div>
+                    <p class="text h3">Decision to Change</p>
+                    <p class="text">Motivated by the desire to reclaim his life, he took concrete steps to begin the recovery process. He sought professional help, enrolling in a rehabilitation program that provided the support and resources he needed. The program was rigorous, demanding a complete overhaul of his lifestyle and habits. He underwent therapy to address his emotional and mental health issues, participated in support groups, and adhered to a strict regimen aimed at breaking his addiction.
+                        The journey was fraught with challenges. There were days when the urge to relapse was overwhelming, and the emotional pain seemed too much to bear. But he persevered, drawing strength from his determination to rebuild his life and the encouragement of those who believed in him.
+                        </p>
+                    <p class="text h3">Journey to Redemption</p>
+                    <p class="text">Gradually, he began to see improvements in his life. He regained his health, both physically and mentally. His relationships, though strained, started to mend as he demonstrated his commitment to change. He reconnected with his family, expressing his remorse and seeking forgiveness. It was a slow process, but the bonds of love and trust began to heal.
+                        Professionally, he found renewed purpose in his work. He resumed his programming projects, but this time with a deeper sense of responsibility and focus. His experiences had given him a new perspective, and he channeled his creativity and skills into meaningful projects. He developed programs that addressed social issues, using technology as a tool for positive change.
+                        His journey to redemption was marked by significant achievements. He launched a successful startup that provided tech solutions to underserved communities, earning recognition and accolades. He became an advocate for mental health and addiction recovery, sharing his story to inspire and support others facing similar struggles.
+                        Reflecting on his journey, he realized that his struggles and failures had shaped him into a stronger, more resilient person. He had faced the depths of despair and emerged with a renewed sense of purpose and hope. His story became a testament to the power of perseverance, the possibility of redemption, and the unyielding strength of the human spirit.
+                        </p>
+                    
                 </div>
             </div>
         </div>
